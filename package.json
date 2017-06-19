@@ -1,0 +1,28 @@
+{
+  "name": "instacrawler",
+  "version": "1.0.0",
+  "description": "Crawling images from Instagram",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saintgeo23/instacrawler.git"
+  },
+  "author": "saintgeo23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saintgeo23/instacrawler/issues"
+  },
+  "homepage": "https://github.com/saintgeo23/instacrawler#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "include-all": "^1.0.0",
+    "nunjucks": "^3.0.1",
+    "rc": "1.0.1",
+    "sails": "~0.12.13",
+    "sails-disk": "~0.10.9"
+  }
+}
