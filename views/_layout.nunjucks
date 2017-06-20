@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Instacrawler</title>
+  <title>Insta-crawler</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <link rel="stylesheet" type="text/css" href="styles/app.css" />
 
   {% include '_includes/favicon.nunjucks' %}
 </head>
 
 <body>
   {% block content %}
-    Hello world from Instacrawler!
   {% endblock %}
+
+  <script src="scripts/app.js"></script>
 </body>
 </html>
